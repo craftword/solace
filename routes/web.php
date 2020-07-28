@@ -190,7 +190,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
     Route::post('importfileLab', ['as' => 'importfileLab', 'uses' =>'Admin\HmoController@importfileLab']);
     Route::post('addPlan', ['as' => 'addPlan', 'uses' =>'Admin\HmoController@addPlan']);
     Route::get('getPlan', ['as' => 'getplan', 'uses' =>'Admin\HmoController@getPlan']);
-<<<<<<< HEAD
     Route::get('authcode', ['as' => 'authcode', 'uses' =>'Admin\HmoController@getAuthCode']);
     Route::post('authcode', ['as' => 'authcode', 'uses' =>'Admin\HmoController@saveAuthCode']);
     Route::get('logAuthCode', ['as' => 'authcode', 'uses' =>'Admin\HmoController@getlogAuthCode']);
@@ -299,8 +298,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
 
 
 
-=======
->>>>>>> d0c062ee77795cea3a51e6e687cfe676bf7fee35
 });
 
 
